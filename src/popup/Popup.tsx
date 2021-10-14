@@ -58,7 +58,6 @@ const Popup = () => {
     <div css={styles.container}>
       <div css={styles.header}>
         <span>Random-notes</span>
-        <img src="settings.svg" height={18} width={18} />
       </div>
       <div css={styles.mediumEditor} ref={(ref) => handleRef(ref)} />
     </div>
