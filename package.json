@@ -4,7 +4,6 @@
   "description": "Random notes",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "dev": "webpack --config webpack.dev.js",
     "watch": "webpack -w --config webpack.dev.js"
   },
   "devDependencies": {
